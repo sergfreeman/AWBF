@@ -1,4 +1,5 @@
 import { LogForm } from "./loginWindow.js";
+// import { mongoClient} from "./allDB.js";
 // document.querySelector('.div-logInOut');
 
 let login;
@@ -21,6 +22,12 @@ logoIco.addEventListener('click', (e) => {
 
     }
 
+})
+
+document.getElementById('wiev-all').addEventListener('click', ()=>{
+    
+    // mongoClient();
+    alert('show all db');
 })
 
 
